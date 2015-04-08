@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<research>
+	<team id="1">
+		<name>Design Integration</name>
+		<leader>欣频</leader>
+		<members>
+			<mname>彡多</mname>
+			<mname>安婴</mname>
+			<mname>左力</mname>
+			<mname>小凤</mname>
+			<mname>佳琪</mname>
+		</members>
+		<intro>设计一体化</intro>
+		<image>/assets/images/designunit.jpg</image>
+		<pdf>/assets/pdf/DPL.pdf</pdf>
+	</team>
+	<team id="2">
+		<name>Cross Screen Studio</name>
+		<leader>李强</leader>
+		<members>
+			<mname>海东</mname>
+			<mname>尹哲</mname>
+			<mname>启豪</mname>
+			<mname>串串</mname>
+			<mname>佳琪</mname>
+		</members>
+		<intro>跨屏设计领域研究</intro>
+		<image>/assets/images/doc.jpg</image>
+		<pdf>/assets/pdf/Form.pdf</pdf>
+	</team>
+	<team id="3">
+		<name>Responsive Design</name>
+		<leader>李强</leader>
+		<members>
+			<mname>毛毛</mname>
+			<mname>安婴</mname>
+			<mname>左力</mname>
+			<mname>毛毛</mname>
+			<mname>佳琪</mname>
+		</members>
+		<intro>B2B响应式落地</intro>
+		<image>/assets/images/Responsive.jpg</image>
+		<pdf>/assets/pdf/Responsive.pdf</pdf>
+	</team>
+	<team id="4">
+		<name>Brand &amp; Design</name>
+		<leader>王茂星</leader>
+		<members>
+			<mname>向许源</mname>
+			<mname>安婴</mname>
+			<mname>左力</mname>
+			<mname>毛毛</mname>
+			<mname>佳琪</mname>
+		</members>
+		<intro>品牌化 - 设计语言统一应用</intro>
+		<image>/assets/images/brand.png</image>
+		<pdf>/assets/pdf/Brand.pdf</pdf>
+	</team>
+	<team id="5">
+		<name>Form Research</name>
+		<leader>欣频</leader>
+		<members>
+			<mname>向许源</mname>
+			<mname>安婴</mname>
+			<mname>左力</mname>
+			<mname>毛毛</mname>
+			<mname>佳琪</mname>
+		</members>
+		<intro>表单研究</intro>
+		<image>/assets/images/form.jpg</image>
+		<pdf>/assets/pdf/Brand.pdf</pdf>
+	</team>
+	<team id="6">
+		<name>Banner Maker</name>
+		<leader>Eric</leader>
+		<members>
+			<mname>向许源</mname>
+			<mname>安婴</mname>
+			<mname>左力</mname>
+			<mname>毛毛</mname>
+			<mname>佳琪</mname>
+		</members>
+		<intro>运营图片制作工具</intro>
+		<image>/assets/images/banner.jpg</image>
+		<pdf>/assets/pdf/Brand.pdf</pdf>
+	</team>
+	<team id="7">
+		<name>International Studies</name>
+		<leader>李强</leader>
+		<members>
+			<mname>向许源</mname>
+			<mname>安婴</mname>
+			<mname>左力</mname>
+			<mname>毛毛</mname>
+			<mname>佳琪</mname>
+		</members>
+		<intro>跨境B类研究</intro>
+		<image>/assets/images/inter_b.png</image>
+		<pdf>/assets/pdf/Brand.pdf</pdf>
+	</team>	
+	<team id="8">
+		<name>Data Visuallize</name>
+		<leader>林孙佳</leader>
+		<members>
+			<mname>向许源</mname>
+			<mname>安婴</mname>
+			<mname>左力</mname>
+			<mname>毛毛</mname>
+			<mname>佳琪</mname>
+		</members>
+		<intro>数据可视化</intro>
+		<image>/assets/images/data.png</image>
+		<pdf>/assets/pdf/Brand.pdf</pdf>
+	</team>
+
+</research>
