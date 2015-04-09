@@ -1,8 +1,7 @@
 body
 {
 	background: #eee;
-	font-family: 'Roboto','Arial','Microsoft YaHei';
-}
+	font-family: 'Roboto','Arial','Microsoft YaHei';}
 
 body a:link
 {
@@ -107,6 +106,17 @@ nav .glyphicon-align-justify
 	margin-right: 5px;
 }
 
+#logo
+{
+	width: 271px;
+	height: 114px;
+	background: url(/assets/images/logo.png);
+	background-size: cover;
+	z-index: 999;
+	margin:0 auto;
+	margin-bottom: 20px;
+}
+
 header
 {
 	background: #eee;
@@ -142,17 +152,18 @@ header
 
 article h1
 {
-	font-size: 24px;
+	font-size: 18px;
 	line-height: 30px;
-	font-weight: bold;
+	font-weight: 400;
+	color:#666;
 }
 
 article .intro
 {
 
-	margin: 20px 50px  30px 50px;
+	margin: 10px 50px  30px 50px;
 	color:#999;
-	font-size:13px;
+	font-size:12px;
 }
 
 article img

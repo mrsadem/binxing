@@ -27,7 +27,7 @@ if($action=='add'){
 		$starttime = strtotime($startdate.' '.$s_time);
 	}
 
-	$colors = array("#360","#f30","#06c");
+	$colors = array("#f90","#f39","#06c","#095");
 	$key = array_rand($colors);
 	$color = $colors[$key];
 

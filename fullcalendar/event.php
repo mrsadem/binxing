@@ -97,6 +97,14 @@ $date = $_GET['date'];
     <label><input type="checkbox" value="1" id="isallday" name="isallday" checked> 全天</label>
     <label><input type="checkbox" value="1" id="isend" name="isend"> 结束时间</label>
     </p>
+    <p>
+    <select name="event_type">
+        <option value="holiday">假期</option>
+        <option value="domain">专业</option>
+        <option value="task">课题</option>
+        <option value="entertainment">娱乐</option>
+    </select>
+    </p>
     <div class="sub_btn"><input type="submit" class="btn btn_ok" value="确定"> <input type="button" class="btn btn_cancel" value="取消" onClick="$.fancybox.close()"></div>
     </form>
 </div>

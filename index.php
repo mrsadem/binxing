@@ -1,5 +1,7 @@
 <?php require_once('header.php'); ?>
     <!-- container start -->
+    <div id="logo">
+    </div>
     <div class="container main-content">
       <div class="row">
           <article class="col-xs-12 col-sm-12 col-md-8">
@@ -17,7 +19,7 @@
 
           <article class="col-xs-12 col-sm-6 col-md-4">
             <div class="article-content">
-              <a href="review.php"><img src="/assets/images/test.jpg" alt="" class="img-responsive" target="_blank" ></a>
+              <a href="review.php"><img src="/assets/images/review.jpg" alt="" class="img-responsive" target="_blank" ></a>
               <a href="review.php"><h1 class="text-center">Design Review</h1></a>
 
               <!-- <span class="leader">Leader:</span> <a href="#">李强</a>     -->
@@ -32,9 +34,9 @@
           <article class="col-xs-12 col-sm-6 col-md-4">
            <div class="article-content">
 
-             <a href="http://binxing.com/pdfjs/web/viewer.html" target="_blank"><img src="<?php echo $team -> image ?>" alt="" class="img-responsive"></a>
+             <a href="/pdfjs/web/viewer.html" target="_blank"><img src="<?php echo $team -> image ?>" alt="" class="img-responsive"></a>
 
-             <a href="http://binxing.com/pdfjs/web/viewer.html"><h1 class="text-center"><?php echo $team -> name; ?></h1></a>
+             <a href="/pdfjs/web/viewer.html"><h1 class="text-center"><?php echo $team -> name; ?></h1></a>
 
              <div class="intro">
               <p class="text-center"><?php echo $team -> intro ?></p>
@@ -48,4 +50,4 @@
 
 <?php require_once('footer.php'); ?>
 </body>
-</html>
+</html>ml>
