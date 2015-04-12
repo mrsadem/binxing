@@ -4,6 +4,7 @@ include_once('connect.php');//连接数据库
 $action = $_GET['action'];
 if($action=='add'){
 	$events = stripslashes(trim($_POST['event']));//事件内容
+	$event_type = $_POST['e_type'];	 //事件类型
 	$events=mysql_real_escape_string(strip_tags($events),$link); //过滤HTML标签，并转义特殊字符
 
 	$isallday = $_POST['isallday'];//是否是全天事件
@@ -27,8 +28,19 @@ if($action=='add'){
 		$starttime = strtotime($startdate.' '.$s_time);
 	}
 
-	$colors = array("#f90","#f39","#06c","#095");
-	$key = array_rand($colors);
+	$colors = array("#f90","#06c","#095");     //设置事件颜色
+	switch ($event_type) {
+		case 'meeting':
+			$key = 0;
+			break;
+		case 'share':
+			$key = 1;
+			break;
+		case 'others':
+			$key = 2;
+			break;
+	}
+
 	$color = $colors[$key];
 
 	$isallday = $isallday?1:0;
@@ -45,6 +57,7 @@ if($action=='add'){
 		exit;	
 	}
 	$events = stripslashes(trim($_POST['event']));//事件内容
+	$event_type = $_POST['e_type'];	 //事件类型
 	$events=mysql_real_escape_string(strip_tags($events),$link); //过滤HTML标签，并转义特殊字符
 
 	$isallday = $_POST['isallday'];//是否是全天事件
@@ -55,6 +68,23 @@ if($action=='add'){
 
 	$s_time = $_POST['s_hour'].':'.$_POST['s_minute'].':00';//开始时间
 	$e_time = $_POST['e_hour'].':'.$_POST['e_minute'].':00';//结束时间
+
+	$colors = array("#f90","#06c","#095");     //设置事件颜色
+	switch ($event_type) {
+		case 'meeting':
+			$key = 0;
+			break;
+		case 'share':
+			$key = 1;
+			break;
+		case 'others':
+			$key = 2;
+			break;
+	}
+
+	$color = $colors[$key];
+
+	//echo $color;
 
 	if($isallday==1 && $isend==1){
 		$starttime = strtotime($startdate);
@@ -71,11 +101,11 @@ if($action=='add'){
 	}
 
 	$isallday = $isallday?1:0;
-	mysql_query("update `calendar` set `title`='$events',`starttime`='$starttime',`endtime`='$endtime',`allday`='$isallday' where `id`='$id'");
-	if(mysql_affected_rows()==1){
+	mysql_query("update `calendar` set `title`='$events',`starttime`='$starttime',`endtime`='$endtime',`allday`='$isallday',`color`='$color' where `id`='$id'");
+	if(mysql_affected_rows() <= 1){
 		echo '1';
 	}else{
-		echo '出错了！';	
+		echo '出错了！'.mysql_affected_rows();	
 	}
 }elseif($action=="del"){
 	$id = intval($_POST['id']);

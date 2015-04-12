@@ -34,7 +34,7 @@
           <article class="col-xs-12 col-sm-6 col-md-4">
            <div class="article-content">
 
-             <a href="/pdfjs/web/viewer.html" target="_blank"><img src="<?php echo $team -> image ?>" alt="" class="img-responsive"></a>
+             <a href="<?php echo "http://binxing.com/pdfjs/web/viewer.html?file=../../assets/pdf/".$team -> pdf ?>" target="_blank"><img src="<?php echo "/assets/images/".$team -> image ?>" alt="" class="img-responsive"></a>
 
              <a href="/pdfjs/web/viewer.html"><h1 class="text-center"><?php echo $team -> name; ?></h1></a>
 

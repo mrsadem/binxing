@@ -18,7 +18,13 @@ $date = $_GET['date'];
 <div class="fancy">
 	<h3>新建事件</h3>
     <form id="add_form" action="do.php?action=add" method="post">
-    <p>日程内容：<input type="text" class="input" name="event" id="event" style="width:320px" placeholder="记录你将要做的一件事..."></p>
+    <p>日程内容：<input type="text" class="input" name="event" id="event" style="width:250px;margin-right:10px;" placeholder="记录你将要做的一件事...">
+    <select name="e_type" value="请选择">
+        <option value="meeting">部门会议</option>
+        <option value="share">专业分享</option>
+        <option value="others">其他</option>
+    </select>
+    </p>
     <p>开始时间：<input type="text" class="input datepicker" name="startdate" id="startdate" value="<?php echo $date;?>" readonly>
     <span id="sel_start" style="display:none"><select name="s_hour">
     	<option value="00">00</option>
@@ -97,14 +103,6 @@ $date = $_GET['date'];
     <label><input type="checkbox" value="1" id="isallday" name="isallday" checked> 全天</label>
     <label><input type="checkbox" value="1" id="isend" name="isend"> 结束时间</label>
     </p>
-    <p>
-    <select name="event_type">
-        <option value="holiday">假期</option>
-        <option value="domain">专业</option>
-        <option value="task">课题</option>
-        <option value="entertainment">娱乐</option>
-    </select>
-    </p>
     <div class="sub_btn"><input type="submit" class="btn btn_ok" value="确定"> <input type="button" class="btn btn_cancel" value="取消" onClick="$.fancybox.close()"></div>
     </form>
 </div>
@@ -117,6 +115,8 @@ function editform($id){
 		$id = $row['id'];
 		$title = $row['title'];
 		$starttime = $row['starttime'];
+        $e_color = $row['color'];   //  #f90->部门会议 #06c->专业分享 #095->其他
+  
 		$start_d = date("Y-m-d",$starttime);
 		$start_h = date("H",$starttime);
 		$start_m = date("i",$starttime);
@@ -152,7 +152,13 @@ function editform($id){
 	<h3>编辑事件</h3>
     <form id="add_form" action="do.php?action=edit" method="post">
     <input type="hidden" name="id" id="eventid" value="<?php echo $id;?>">
-    <p>日程内容：<input type="text" class="input" name="event" id="event" style="width:320px" placeholder="记录你将要做的一件事..." value="<?php echo $title;?>"></p>
+    <p>日程内容：<input type="text" class="input" name="event" id="event" style="width:250px;margin-right:10px;" placeholder="记录你将要做的一件事..." value="<?php echo $title;?>">
+    <select name="e_type">
+        <option value="meeting" <?php if($e_color == "#f90") echo("selected");?>  >部门会议</option>
+        <option value="share" <?php if($e_color == "#06c") echo("selected");?> >专业分享</option>
+        <option value="others" <?php if($e_color == "#095") echo("selected");?> >其他</option>
+    </select>
+    </p>
     <p>开始时间：<input type="text" class="input datepicker" name="startdate" id="startdate" value="<?php echo $start_d;?>" readonly>
     <span id="sel_start" <?php echo $display;?>><select name="s_hour">
     	<option value="<?php echo $start_h;?>" selected><?php echo $start_h;?></option>
