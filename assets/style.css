@@ -32,7 +32,7 @@ body a:link
 	background: #333;
 }
 
-#back .glyphicon-align-justify
+#back span
 {
 	color:#fff;
 	margin: 28px 0 0 15px;
@@ -101,7 +101,7 @@ body a:link
 }
 
 
-nav .glyphicon-align-justify
+#work-panel span
 {
 	margin-right: 5px;
 }
@@ -136,17 +136,16 @@ header
 .article-content
 {
 	display: block;
-	margin: 10px;
 	border:solid 1px #ddd;
 	background: #fff;
 	height: auto;
  	width: auto;
+	position: relative;
 }
 
 .col-xs-12, .col-sm-6, .col-md-4
 {
-	padding-left: 0px;
-	padding-right: 0px;
+	padding: 10px;
 }
 
 
@@ -166,9 +165,53 @@ article .intro
 	font-size:12px;
 }
 
-article img
+.img-content
 {
-  width: 100%;
+	position:relative;
+}
+
+
+
+.img-content:hover .article-caption{
+	opacity: 0.9;
+}
+
+.article-caption
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	opacity: 0.0;
+	transition:opacity 0.5s ease;
+	-webkit-transition: opacity 0.5s ease;
+  	-moz-transition: opacity 0.5s ease;
+  	-o-transition: opacity 0.5s ease;
+}
+
+.article-caption .enter-img
+{
+	width: 65px;
+	height: 65px;
+	position: absolute;
+	top: 35%;
+	right:40%;
+	background: url(/assets/images/enter.png);
+	background-size: cover;
+}
+
+.article-large .article-caption .enter-img
+{
+	position: absolute;
+	right: 45%;
+}
+
+.article-caption .enter-img:hover
+{
+	background: url(/assets/images/enter-hover.png);
+	background-size: cover;
 }
 
 footer

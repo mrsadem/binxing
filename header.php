@@ -26,8 +26,7 @@
             <div class="navbar-header">
                <a class="navbar-brand" href="index.php"><span>阿里巴巴国际站UED团队</span><br>International User Experience Design</a>
             </div>
-           <div>
-              <ul class="nav navbar-nav">
+              <ul class="nav navbar-nav hidden-xs">
                   <li class="active"><a href="index.php">Home</a></li>
                   <li class="dropdown">
                       <a href="review.php">
@@ -43,9 +42,8 @@
                       </ul> -->
                   </li>
                   <li><a href="/fullcalendar/cal_opt.php" target="blank">Team Calendar</a></li>
-                  <li id="work-panel"><a href="#" class="btn-link"><span class="glyphicon glyphicon-align-justify"></span></a></li>
+                  <li id="work-panel"><a href="#" class="btn-link"><span class="glyphicon glyphicon-th-list"></span></a></li>
              </ul>
-           </div>
         </nav>
       </div>
     </header>
@@ -53,7 +51,7 @@
     
     <!-- side bar start -->
     <div class="side">
-      <div id="back"><a href="#"><span class="glyphicon glyphicon-align-justify"></span></a></div>
+      <div id="back"><a href="#"><span class="glyphicon glyphicon-th-list"></span></a></div>
       <h5>便捷导航</h5>
       <ul>
         <li><a href="#">Demo中心</a></li>
