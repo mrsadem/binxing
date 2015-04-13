@@ -246,17 +246,6 @@ footer span
 	float:right;
 }
 
-#design-review
-{
-	width: 100%;
-	height: 60px;
-	background: #eee;
-}
-
-#design-review h4
-{
-	font-weight: lighter;
-}
 
 .nav>li>a
 {

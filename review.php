@@ -5,10 +5,7 @@
 </script>
 
 <div class="container review-content">
-	<div id="design-review">
-		<h4 class="text-center">Design Review</h4>
-	</div>
-	
+		<h4 class="text-center">Design Review</h4>	
 	<img src="./assets/images/review.png" alt="">
 </div>
 <?php require_once('footer.php'); ?>

@@ -58,11 +58,11 @@
               <ul>
               <?php foreach ($class -> site as $site) { 
                 if($site -> pdf){
-                $s_link = "http://binxing.com/pdfjs/web/viewer.html?file=../../assets/pdf/".$site -> pdf;
+                $s_link = "http://binxing.com/pdfjs/web/viewer.html?file=../../assets/pdf/".$site -> pdf.'.pdf';
                   }elseif($site -> link) {
                       $s_link = $site -> link;
                   } else{
-                      $s_link = 'single.php?post='.$site -> name;
+                      $s_link = 'single.php?action='.$site -> name;
                   }
                 ?>
                 <li><a href="<?php echo $s_link; ?>"><?php echo $site -> name; ?></a></li>

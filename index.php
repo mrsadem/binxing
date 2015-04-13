@@ -30,11 +30,11 @@
             <div class="img-content">
             <?php
              if($post -> pdf){
-                $r_link = "http://binxing.com/pdfjs/web/viewer.html?file=../../assets/pdf/".$post -> pdf;
+                $r_link = "/pdfjs/web/viewer.html?file=../../assets/pdf/".$post -> pdf.'.pdf';
             }elseif($post -> link) {
                 $r_link = $post -> link;
             } else{
-                $r_link = 'single.php?post='.$post -> name;
+                $r_link = 'single.php?action='.$post -> name;
             }
             ?>
             <a href="<?php echo $r_link; ?>">
