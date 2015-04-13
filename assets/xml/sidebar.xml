@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<sidebar>
+	<class classname="用户研究">
+		<site>
+			<name>Persona</name>
+			<pdf>data.pdf</pdf>
+		</site>
+		<site>
+			<name>用户研究方法</name>
+			<pdf>data.pdf</pdf>
+		</site>
+		<site>
+			<name>问卷设计流程</name>
+			<pdf>data.pdf</pdf>
+		</site>
+		<site>
+			<name>用户体验研究方法</name>
+			<pdf>data.pdf</pdf>
+		</site>
+		<site>
+			<name>User Test Tool</name>
+			<pdf>data.pdf</pdf>
+		</site>
+		<site>
+			<name>用研工具包</name>
+			<pdf>data.pdf</pdf>
+		</site>
+	</class>
+	<class classname="新人学习">
+		<site>
+			<name>新人必读</name>
+			<pdf>data.pdfdata.pdf</pdf>
+		</site>
+		<site>
+			<name>视觉新人landing</name>
+			<pdf>data.pdf</pdf>
+		</site>
+		<site>
+			<name>运营视觉新人landing</name>
+			<pdf>data.pdf</pdf>
+		</site>
+		<site>
+			<name>无线新人landing</name>
+			<pdf>data.pdf</pdf>
+		</site>
+		<site>
+			<name>交互新人landing</name>
+			<pdf>data.pdf</pdf>
+		</site>
+		<site>
+			<name>能力评估</name>
+			<pdf>data.pdf</pdf>
+		</site>
+		<site>
+			<name>设计一体化文档模板</name>
+			<pdf>data.pdf</pdf>
+		</site>
+		<site>
+			<name>新人资料包</name>
+			<pdf>data.pdf</pdf>
+		</site>
+	</class>
+	<class classname="课题研究">
+		<site>
+			<name>国家差异化研究</name>
+			<pdf>data.pdfdata.pdf</pdf>
+		</site>
+		<site>
+			<name>无线表单设计</name>
+			<pdf>data.pdf</pdf>
+		</site>
+		<site>
+			<name>动效平台</name>
+			<link>http://www.baidu.com</link>
+		</site>
+		<site>
+			<name>内容呈现效率研究</name>
+			<pdf>data.pdf</pdf>
+		</site>
+		<site>
+			<name>UXAM</name>
+		</site>
+	</class>
+	<class classname="工具平台">
+		<site>
+			<name>Demo中心</name>
+			<link>http://www.baidu.com</link>
+		</site>
+		<site>
+			<name>淘云盘</name>
+			<link>http://www.baidu.com</link>
+		</site>
+		<site>
+			<name>ICBU数据门户</name>
+			<link>http://www.baidu.com</link>
+		</site>
+		<site>
+			<name>有数</name>
+			<link>http://www.baidu.com</link>
+		</site>
+		<site>
+			<name>U-Time</name>
+			<link>http://www.baidu.com</link>
+		</site>
+		<site>
+			<name>专利平台</name>
+			<link>http://www.baidu.com</link>
+		</site>
+		<site>
+			<name>BannerMaker</name>
+			<link>http://www.baidu.com</link>
+		</site>
+	</class>
+	<class classname="设计规范">
+		<site>
+			<name>外综服DesignGuideline</name>
+			<pdf>data.pdf</pdf>
+		</site>
+		<site>
+			<name>MA DesignGuideline</name>
+			<pdf>data.pdf</pdf>
+		</site>
+		<site>
+			<name>联盟 DesignGuideline</name>
+			<pdf>data.pdf</pdf>
+		</site>
+		<site>
+			<name>P4P DesignGuideline</name>
+			<pdf>data.pdf</pdf>
+		</site>
+	</class>
+</sidebar>

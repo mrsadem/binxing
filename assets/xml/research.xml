@@ -1,60 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <research>
-	<team id="1">
+	<post>
 		<name>Design Integration</name>
 		<intro>设计一体化</intro>
-		<image>designunit.jpg</image>
+		<image>unit.jpg</image>
 		<tcolor>#45CD9F</tcolor>
 		<pdf>data.pdf</pdf>
-	</team>
-	<team id="2">
-		<name>Cross Screen Studio</name>
-		<intro>跨屏设计领域研究</intro>
-		<image>cross.png</image>
-		<tcolor>#333333</tcolor>
-		<pdf>data.pdf</pdf>
-	</team>
-	<team id="3">
+	</post>
+	<post>
 		<name>Form Research</name>
 		<intro>表单研究</intro>
 		<image>form.png</image>
 		<tcolor>#F9684B</tcolor>
 		<pdf>data.pdf</pdf>
-	</team>
-	<team id="4">
-		<name>Brand &amp; Design</name>
-		<intro>品牌化 - 设计语言统一应用</intro>
-		<image>brand.png</image>
-		<tcolor>#FFD533</tcolor>
+	</post>
+	<post>
+		<name>Multiscreen Studio</name>
+		<intro>跨屏设计领域研究</intro>
+		<image>cross.png</image>
+		<tcolor>#333333</tcolor>
 		<pdf>data.pdf</pdf>
-	</team>
-	<team id="5">
-		<name>Responsive Design</name>
-		<intro>B2B响应式落地</intro>
-		<image>Responsive.jpg</image>
-		<tcolor>#5E9EF5</tcolor>
-		<pdf>data.pdf</pdf>
-	</team>
-	<team id="6">
-		<name>Banner Maker</name>
-		<intro>运营图片制作工具</intro>
-		<image>banner.png</image>
-		<tcolor>#EB418F</tcolor>
-		<pdf>data.pdf</pdf>
-	</team>
-	<team id="7">
+	</post>
+	<post>
 		<name>International Studies</name>
 		<intro>跨境B类研究</intro>
 		<image>inter_b.png</image>
 		<tcolor>#B679F8</tcolor>
-		<pdf>data.pdf</pdf>
-	</team>	
-	<team id="8">
-		<name>Data Visuallize</name>
-		<intro>数据可视化</intro>
-		<image>data.jpg</image>
-		<tcolor>#FF7300</tcolor>
-		<pdf>data.pdf</pdf>
-	</team>
-
+	</post>	
+	<post>
+		<name>Brand &amp; Design</name>
+		<intro>品牌化 - 设计语言统一应用</intro>
+		<image>brand.png</image>
+		<tcolor>#FFD533</tcolor>
+		<link>data.pdf</link>
+	</post>
+	<post>
+		<name>Responsive Design</name>
+		<intro>B2B响应式落地</intro>
+		<image>Responsive.jpg</image>
+		<tcolor>#5E9EF5</tcolor>
+		<link>data.pdf</link>
+	</post>
+	<post>
+		<name>Banner Maker</name>
+		<intro>运营图片制作工具</intro>
+		<image>banner.png</image>
+		<tcolor>#DE778F</tcolor>
+		<link>data.pdf</link>
+	</post>
 </research>

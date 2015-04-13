@@ -52,31 +52,22 @@
     <!-- side bar start -->
     <div class="side">
       <div id="back"><a href="#"><span class="glyphicon glyphicon-th-list"></span></a></div>
-      <h5>便捷导航</h5>
-      <ul>
-        <li><a href="#">Demo中心</a></li>
-        <li><a href="#">数据门户</a></li>
-        <li><a href="#">U-time</a></li>
-        <li><a href="#">案例库</a></li>
-      </ul>
-      <h5>文档&规范</h5>      
-      <ul>
-        <li><a href="#">Demo中心</a></li>
-        <li><a href="#">数据门户</a></li>
-        <li><a href="#">U-time</a></li>
-        <li><a href="#">B2B Persona</a></li>
-      </ul>
-      <h5>新人手册</h5>
-      <ul>
-        <li><a href="#">交互新人landing</a></li>
-        <li><a href="#">视觉新人landing</a></li>
-        <li><a href="#">用研新人landing</a></li>
-      </ul>
-      <h5>工具&素材</h5>
-      <ul>
-        <li><a href="#">Omnigraffle</a></li>
-        <li><a href="#">Sketch</a></li>
-        <li><a href="#">Axure</a></li>
-      </ul>
+      <?php $xml = simplexml_load_file('./assets/xml/sidebar.xml'); 
+            foreach ($xml -> class as $class) { ?>
+              <h5><?php echo $class -> attributes(); ?></h5>
+              <ul>
+              <?php foreach ($class -> site as $site) { 
+                if($site -> pdf){
+                $s_link = "http://binxing.com/pdfjs/web/viewer.html?file=../../assets/pdf/".$site -> pdf;
+                  }elseif($site -> link) {
+                      $s_link = $site -> link;
+                  } else{
+                      $s_link = 'single.php?post='.$site -> name;
+                  }
+                ?>
+                <li><a href="<?php echo $s_link; ?>"><?php echo $site -> name; ?></a></li>
+              <?php } ?>
+              </ul>
+      <?php }?>
     </div>
     <!-- side bar end -->

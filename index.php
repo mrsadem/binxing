@@ -23,40 +23,31 @@
              </div>
           </article>
 
-          <article class="col-xs-12 col-sm-6 col-md-4">
-            <div class="article-content">
-              <div class="img-content">
-              <a href="review.php">
-                <div class="article-caption" style="background:#DE778F;">
-                  <div class="enter-img"></div>
-                </div>
-              </a>
-              <img src="/assets/images/review.jpg" alt="" class="img-responsive img-main" target="_blank" >
-              </div>
-              <a href="review.php"><h1 class="text-center">Design Review</h1></a>
-
-              <!-- <span class="leader">Leader:</span> <a href="#">李强</a>     -->
-
-              <div class="intro"><p class="text-center">设计过程分享</p></div>
-           </div>
-         </article>
-
         <?php $xml=simplexml_load_file('./assets/xml/research.xml'); 
-         foreach($xml -> team as $team){  ?>
+         foreach($xml -> post as $post){  ?>
           <article class="col-xs-12 col-sm-6 col-md-4">
            <div class="article-content">
             <div class="img-content">
-            <a href="<?php echo "http://binxing.com/pdfjs/web/viewer.html?file=../../assets/pdf/".$team -> pdf ?>">
-              <div class="article-caption" style="background:<?php echo $team -> tcolor ?>;">
+            <?php
+             if($post -> pdf){
+                $r_link = "http://binxing.com/pdfjs/web/viewer.html?file=../../assets/pdf/".$post -> pdf;
+            }elseif($post -> link) {
+                $r_link = $post -> link;
+            } else{
+                $r_link = 'single.php?post='.$post -> name;
+            }
+            ?>
+            <a href="<?php echo $r_link; ?>">
+              <div class="article-caption" style="background:<?php echo $post -> tcolor ?>;">
                 <div class="enter-img"></div>
               </div>
             </a>
-            <img src="<?php echo "/assets/images/".$team -> image ?>" alt="" class="img-responsive img-main">
+            <img src="<?php echo "/assets/images/".$post -> image ?>" alt="" class="img-responsive img-main">
             </div>
-            <a href="<?php echo "http://binxing.com/pdfjs/web/viewer.html?file=../../assets/pdf/".$team -> pdf ?>"><h1 class="text-center"><?php echo $team -> name; ?></h1></a>
+            <a href="<?php echo $r_link; ?>"><h1 class="text-center"><?php echo $post -> name; ?></h1></a>
 
             <div class="intro">
-            <p class="text-center"><?php echo $team -> intro ?></p>
+            <p class="text-center"><?php echo $post -> intro ?></p>
             </div>
           </div>
           </article>
@@ -66,5 +57,3 @@
     <!-- container end -->
 
 <?php require_once('footer.php'); ?>
-</body>
-</html>ml>

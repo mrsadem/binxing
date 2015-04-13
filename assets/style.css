@@ -22,7 +22,7 @@ body a:link
 	overflow-y:auto;
 	z-index: 999;
 	background: #555;
-	margin-left:0;  
+	margin-left:-200px;  
 }
 
 .side #back
@@ -256,11 +256,6 @@ footer span
 #design-review h4
 {
 	font-weight: lighter;
-}
-
-.review-content img
-{
-	width: 100%;
 }
 
 .nav>li>a
