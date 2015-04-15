@@ -11,40 +11,41 @@
 		<intro>表单研究</intro>
 		<image>form.png</image>
 		<tcolor>#F9684B</tcolor>
-		<pdf>data</pdf>
+		<link>#</link>
 	</post>
 	<post>
 		<name>Multiscreen Studio</name>
 		<intro>跨屏设计领域研究</intro>
 		<image>cross.png</image>
 		<tcolor>#333333</tcolor>
-		<pdf>data</pdf>
+		<pdf>跨屏设计-资料沉淀</pdf>
 	</post>
 	<post>
 		<name>International Studies</name>
 		<intro>跨境B类研究</intro>
 		<image>inter_b.png</image>
 		<tcolor>#B679F8</tcolor>
+		<link>#</link>
 	</post>	
 	<post>
 		<name>Brand &amp; Design</name>
 		<intro>品牌化 - 设计语言统一应用</intro>
 		<image>brand.png</image>
 		<tcolor>#FFD533</tcolor>
-		<link>data</link>
+		<link>http://guideline.aliui.com</link>
 	</post>
 	<post>
 		<name>Responsive Design</name>
 		<intro>B2B响应式落地</intro>
-		<image>Responsive.jpg</image>
+		<image>responsive.png</image>
 		<tcolor>#5E9EF5</tcolor>
-		<link>data</link>
+		<link>http://r.alif2e.com/</link>
 	</post>
 	<post>
 		<name>Banner Maker</name>
 		<intro>运营图片制作工具</intro>
 		<image>banner.png</image>
 		<tcolor>#DE778F</tcolor>
-		<link>data</link>
+		<link>http://ubanner.alif2e.com/</link>
 	</post>
 </research>

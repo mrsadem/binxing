@@ -65,7 +65,7 @@
                       $s_link = 'single.php?action='.$site -> name;
                   }
                 ?>
-                <li><a href="<?php echo $s_link; ?>"><?php echo $site -> name; ?></a></li>
+                <li><a href="<?php echo $s_link; ?>" target="_blank"><?php echo $site -> name; ?></a></li>
               <?php } ?>
               </ul>
       <?php }?>

@@ -3,49 +3,61 @@
 	<class classname="用户研究">
 		<site>
 			<name>Persona</name>
-			<pdf>data</pdf>
 		</site>
 		<site>
 			<name>用户研究方法</name>
-			<pdf>data</pdf>
+			<pdf>用户研究方法 Paul</pdf>
 		</site>
 		<site>
 			<name>问卷设计流程</name>
-			<pdf>data</pdf>
+			<pdf>用户调研问卷设计流程_v0.1</pdf>
 		</site>
 		<site>
 			<name>用户体验研究方法</name>
-			<pdf>data</pdf>
+			<pdf>用户体验研究方法_贺炜</pdf>
+		</site>
+		<site>
+			<name>用研平台Insight</name>
+			<link>http://insight.alibaba.net</link>
 		</site>
 		<site>
 			<name>User Test Tool</name>
-			<pdf>data</pdf>
+			<pdf>UserTestTool</pdf>
 		</site>
 		<site>
 			<name>用研工具包</name>
-			<pdf>data</pdf>
+			<link>http://uxchecklist.github.io/</link>
+		</site>
+		<site>
+			<name>无线用户之声</name>
+		</site>
+		<site>
+			<name>设计师用研</name>
+		</site>
+		<site>
+			<name>其他报告</name>
 		</site>
 	</class>
 	<class classname="新人学习">
 		<site>
 			<name>新人必读</name>
-			<pdf>datadata</pdf>
+			<pdf>新人必读</pdf>
 		</site>
 		<site>
 			<name>视觉新人landing</name>
-			<pdf>data</pdf>
+			<pdf>视觉landing</pdf>
 		</site>
 		<site>
 			<name>运营视觉新人landing</name>
-			<pdf>data</pdf>
+			<pdf>运营视觉landing</pdf>
 		</site>
 		<site>
 			<name>无线新人landing</name>
-			<pdf>data</pdf>
+			<pdf>无线landing</pdf>
 		</site>
 		<site>
 			<name>交互新人landing</name>
-			<pdf>data</pdf>
+			<pdf>交互landing</pdf>
 		</site>
 		<site>
 			<name>能力评估</name>
@@ -57,25 +69,32 @@
 		</site>
 		<site>
 			<name>新人资料包</name>
-			<pdf>data</pdf>
+			<link>http://yunpan.alibaba-inc.com/group/588969?spm=0.0.0.0.dACKhV#/1.%E6%96%B0%E4%BA%BA%E8%B5%84%E6%96%99</link>
 		</site>
 	</class>
 	<class classname="课题研究">
 		<site>
 			<name>国家差异化研究</name>
-			<pdf>datadata</pdf>
+			<pdf>B2B国家差异化研究</pdf>
+		</site>	
+		<site>
+			<name>浏览器差异化研究</name>
+			<pdf>浏览器分析报告</pdf>
+		</site>		
+		<site>
+			<name>数据可视化研究</name>
+			<pdf>数据可视化</pdf>
 		</site>
 		<site>
 			<name>无线表单设计</name>
-			<pdf>data</pdf>
+			<pdf>Mobile表单设计</pdf>
 		</site>
 		<site>
 			<name>动效平台</name>
-			<link>http://www.baidu.com</link>
+			<link>http://10.19.215.153/#</link>
 		</site>
 		<site>
 			<name>内容呈现效率研究</name>
-			<pdf>data</pdf>
 		</site>
 		<site>
 			<name>UXAM</name>
@@ -84,49 +103,59 @@
 	<class classname="工具平台">
 		<site>
 			<name>Demo中心</name>
-			<link>http://www.baidu.com</link>
+			<link>http://demo.alibaba-inc.com/?all</link>
 		</site>
 		<site>
 			<name>淘云盘</name>
-			<link>http://www.baidu.com</link>
+			<link>http://yunpan.alibaba-inc.com/</link>
 		</site>
 		<site>
 			<name>ICBU数据门户</name>
-			<link>http://www.baidu.com</link>
+			<link>http://icbu.data.alibaba-inc.com/index.htm</link>
 		</site>
 		<site>
 			<name>有数</name>
-			<link>http://www.baidu.com</link>
+			<link>http://youshu.taobao.org/</link>
 		</site>
 		<site>
 			<name>U-Time</name>
-			<link>http://www.baidu.com</link>
+			<link>http://iflow.alif2e.com/</link>
 		</site>
 		<site>
 			<name>专利平台</name>
-			<link>http://www.baidu.com</link>
-		</site>
-		<site>
-			<name>BannerMaker</name>
-			<link>http://www.baidu.com</link>
+			<link>http://zl.alibaba.net/</link>
 		</site>
 	</class>
 	<class classname="设计规范">
 		<site>
 			<name>外综服DesignGuideline</name>
-			<pdf>data</pdf>
+			<pdf>新人必读</pdf>
 		</site>
 		<site>
 			<name>MA DesignGuideline</name>
-			<pdf>data</pdf>
+			<pdf>新人必读</pdf>
 		</site>
 		<site>
 			<name>联盟 DesignGuideline</name>
-			<pdf>data</pdf>
+			<pdf>新人必读</pdf>
 		</site>
 		<site>
 			<name>P4P DesignGuideline</name>
-			<pdf>data</pdf>
+			<pdf>新人必读</pdf>
+		</site>
+	</class>
+	<class classname="链接地址">
+		<site>
+			<name>国际UED内网</name>
+			<link>#</link>
+		</site>
+		<site>
+			<name>国际UED Blog</name>
+			<link>http://www.aliued.com/</link>
+		</site>
+		<site>
+			<name>U一套</name>
+			<link>http://uone.alibaba-inc.com/forum.php</link>
 		</site>
 	</class>
 </sidebar>
