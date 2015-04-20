@@ -17,8 +17,8 @@ $xml = simplexml_load_file('./assets/xml/review.xml');
 		<?php foreach ($review->pdf as $pdf) { ?>
 		<div class="col-md-3">
 			<div class="post-single">
-				<a href="<?php echo "/pdfjs/web/viewer.html?file=../../assets/pdf/".$pdf->name.".pdf"; ?>"><img src="<?php echo '/assets/images/thumbnail/'.$pdf->thumbnail ?>" alt=""></a>
-				<p class="title"><?php echo $pdf->name; ?></p>
+				<a href="<?php echo "/pdfjs/web/viewer.html?file=../../assets/pdf/".$pdf->name.".pdf"; ?>" target="_blank"><img src="<?php echo '/assets/images/thumbnail/'.$pdf->thumbnail ?>" alt=""></a>
+				<a href="<?php echo "/pdfjs/web/viewer.html?file=../../assets/pdf/".$pdf->name.".pdf"; ?>" target="_blank"><p class="title"><?php echo $pdf->name; ?></p></a>
 				<div class="clear"></div>
 				<p class="menber">
 				<?php foreach ($pdf->menber as $menber) { ?>
