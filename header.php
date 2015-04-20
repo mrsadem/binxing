@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>B2B Design Center</title>
   <link href="/boostrap/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
   <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
   <script src="/lib/jquery.min.js"></script>
   <!-- 包括所有已编译的插件 -->
@@ -31,18 +31,10 @@
                   <li class="dropdown">
                       <a href="review.php">
                          Design Review 
-                         <!-- <b class="caret"></b> -->
                       </a>
-                    <!--   <ul class="dropdown-menu">
-                         <li><a href="#">2015年3月</a></li>
-                         <li class="divider"></li>
-                         <li><a href="#">2014年12月</a></li>
-                         <li><a href="#">2014年11月</a></li>
-                         <li><a href="#">2014年10月</a></li>
-                      </ul> -->
                   </li>
                   <li><a href="/fullcalendar/cal_opt.php" target="blank">Team Calendar</a></li>
-                  <li id="work-panel"><a href="#" class="btn-link"><span class="glyphicon glyphicon-th-list"></span></a></li>
+                  <li id="work-panel"><a href="#" class="btn-link"><span class="glyphicon glyphicon-menu-hamburger"></span></a></li>
              </ul>
         </nav>
       </div>
@@ -51,14 +43,14 @@
     
     <!-- side bar start -->
     <div class="side">
-      <div id="back"><a href="#"><span class="glyphicon glyphicon-th-list"></span></a></div>
+      <div id="back"><a href="#"><span class="glyphicon glyphicon-menu-hamburger"></span></a></div>
       <?php $xml = simplexml_load_file('./assets/xml/sidebar.xml'); 
             foreach ($xml -> class as $class) { ?>
               <h5><?php echo $class -> attributes(); ?></h5>
               <ul>
               <?php foreach ($class -> site as $site) { 
                 if($site -> pdf){
-                $s_link = "http://binxing.com/pdfjs/web/viewer.html?file=../../assets/pdf/".$site -> pdf.'.pdf';
+                $s_link = "/pdfjs/web/viewer.html?file=../../assets/pdf/".$site -> pdf.'.pdf';
                   }elseif($site -> link) {
                       $s_link = $site -> link;
                   } else{

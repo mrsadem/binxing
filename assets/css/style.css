@@ -153,7 +153,7 @@ header
 	position: relative;
 }
 
-.col-xs-12, .col-sm-6, .col-md-4, .col-md-3
+.col-xs-12, .col-sm-6, .col-md-4, .col-md-3, .col-md-2
 {
 	padding: 10px;
 }
@@ -227,7 +227,7 @@ article .intro
 .single-content
 {
 	margin-bottom: 20px;
-	min-height: 700px;
+	height: 100%;
 }
 
 .single-content h4
@@ -252,21 +252,27 @@ article .intro
 	display: inline-block;
 	font-size: 12px;
 	line-height: 42px;
-	margin-left: 15px;
+	margin-left: 10px;
 	margin-bottom: 5px;	
 	color:#666;
 }
 
-.post-single span
+.single-content .single-cat
 {
-	padding:14px 18px 0 0;
-	float:right;
-	opacity: 0;
-	color:#999;
-	transition:opacity 0.3s ease;
-	-webkit-transition: opacity 0.3s ease;
-  	-moz-transition: opacity 0.3s ease;
-  	-o-transition: opacity 0.3s ease;
+	display: inline-block;
+	font-size: 14px;
+	color:#F9684B;
+}
+
+.single-content .row
+{
+	padding-bottom: 10px;
+}
+
+.single-content .menber
+{
+	font-size: 12px;
+
 }
 
 .post-single:hover span

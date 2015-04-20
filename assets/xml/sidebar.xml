@@ -1,38 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <sidebar>
-	<class classname="用户研究">
+	<class classname="设计规范">
 		<site>
-			<name>Persona</name>
+			<name>DesignDNA</name>
+			<link>http://guideline.aliui.com</link>
 		</site>
 		<site>
-			<name>用户研究方法</name>
-			<pdf>用户研究方法 Paul</pdf>
+			<name>业务Guideline</name>
+			<link>coming.php</link>
 		</site>
+	</class>
+	<class classname="用研学习">
 		<site>
-			<name>问卷设计流程</name>
-			<pdf>用户调研问卷设计流程_v0.1</pdf>
-		</site>
-		<site>
-			<name>用户体验研究方法</name>
-			<pdf>用户体验研究方法_贺炜</pdf>
-		</site>
-		<site>
-			<name>用研平台Insight</name>
-			<link>http://insight.alibaba.net</link>
-		</site>
-		<site>
-			<name>User Test Tool</name>
-			<pdf>UserTestTool</pdf>
-		</site>
-		<site>
-			<name>用研工具包</name>
-			<link>http://uxchecklist.github.io/</link>
-		</site>
-		<site>
-			<name>无线用户之声</name>
+			<name>用研方法and工具</name>
 		</site>
 		<site>
 			<name>设计师用研</name>
+		</site>
+		<site>
+			<name>UX CheckList</name>
+			<link>http://uxchecklist.github.io/</link>
 		</site>
 		<site>
 			<name>其他报告</name>
@@ -41,31 +28,6 @@
 	<class classname="新人学习">
 		<site>
 			<name>新人必读</name>
-			<pdf>新人必读</pdf>
-		</site>
-		<site>
-			<name>视觉新人landing</name>
-			<pdf>视觉landing</pdf>
-		</site>
-		<site>
-			<name>运营视觉新人landing</name>
-			<pdf>运营视觉landing</pdf>
-		</site>
-		<site>
-			<name>无线新人landing</name>
-			<pdf>无线landing</pdf>
-		</site>
-		<site>
-			<name>交互新人landing</name>
-			<pdf>交互landing</pdf>
-		</site>
-		<site>
-			<name>能力评估</name>
-			<pdf>data</pdf>
-		</site>
-		<site>
-			<name>设计一体化文档模板</name>
-			<pdf>data</pdf>
 		</site>
 		<site>
 			<name>新人资料包</name>
@@ -86,15 +48,12 @@
 			<pdf>数据可视化</pdf>
 		</site>
 		<site>
-			<name>无线表单设计</name>
-			<pdf>Mobile表单设计</pdf>
-		</site>
-		<site>
 			<name>动效平台</name>
 			<link>http://10.19.215.153/#</link>
 		</site>
 		<site>
 			<name>内容呈现效率研究</name>
+			<pdf>内容呈现效率研究2期</pdf>
 		</site>
 		<site>
 			<name>UXAM</name>
@@ -125,23 +84,9 @@
 			<name>专利平台</name>
 			<link>http://zl.alibaba.net/</link>
 		</site>
-	</class>
-	<class classname="设计规范">
 		<site>
-			<name>外综服DesignGuideline</name>
-			<pdf>新人必读</pdf>
-		</site>
-		<site>
-			<name>MA DesignGuideline</name>
-			<pdf>新人必读</pdf>
-		</site>
-		<site>
-			<name>联盟 DesignGuideline</name>
-			<pdf>新人必读</pdf>
-		</site>
-		<site>
-			<name>P4P DesignGuideline</name>
-			<pdf>新人必读</pdf>
+			<name>Iconfont</name>
+			<link>http://www.iconfont.cn/</link>
 		</site>
 	</class>
 	<class classname="链接地址">

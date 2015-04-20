@@ -1,5 +1,5 @@
 <?php require_once('header.php'); ?>
-    <!-- container start -->
+    <!--main container start -->
     <div id="logo">
     </div>
     <div class="container main-content">
@@ -8,7 +8,7 @@
               <div class="article-content">
 
               <div class="img-content">
-                  <a href="http://spring.alif2e.com/">
+                  <a href="http://spring.alif2e.com/" target="_blank">
                     <div class="article-caption" style="background:#3F62E2;">
                       <div class="enter-img"></div>
                     </div>
@@ -37,14 +37,14 @@
                 $r_link = 'single.php?action='.$post -> name;
             }
             ?>
-            <a href="<?php echo $r_link; ?>">
+            <a href="<?php echo $r_link; ?>"  target="_blank">
               <div class="article-caption" style="background:<?php echo $post -> tcolor ?>;">
                 <div class="enter-img"></div>
               </div>
             </a>
             <img src="<?php echo "/assets/images/".$post -> image ?>" alt="" class="img-responsive img-main">
             </div>
-            <a href="<?php echo $r_link; ?>"><h1 class="text-center"><?php echo $post -> name; ?></h1></a>
+            <a href="<?php echo $r_link; ?>" target="_blank"><h1 class="text-center"><?php echo $post -> name; ?></h1></a>
 
             <div class="intro">
             <p class="text-center"><?php echo $post -> intro ?></p>
@@ -54,6 +54,6 @@
         <?php } ?>
       </div>
     </div>
-    <!-- container end -->
+    <!--main container end -->
 
 <?php require_once('footer.php'); ?>
