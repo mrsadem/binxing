@@ -7,7 +7,6 @@
 		</site>
 		<site>
 			<name>业务Guideline</name>
-			<link>coming.php</link>
 		</site>
 	</class>
 	<class classname="用研学习">
@@ -16,6 +15,10 @@
 		</site>
 		<site>
 			<name>设计师用研</name>
+		</site>
+		<site>
+			<name>Insight</name>
+			<link>http://insight.alibaba.net/</link>
 		</site>
 		<site>
 			<name>UX CheckList</name>

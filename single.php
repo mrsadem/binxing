@@ -39,7 +39,7 @@
 	</div>
 	<?php }
 	foreach ($title->image as $image) { 
-	$link = '/pdfjs/web/viewer.html?file=../../assets/images/'.$image.'.jpg'; 
+	$link = '/assets/pdf/'.$image.'.jpg'; 
 	$img_name = strlen($image) > 22 ? getSubstr($image,0,10): $image;
 	?>
 	<div class="col-md-2">

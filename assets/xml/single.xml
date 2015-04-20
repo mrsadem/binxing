@@ -11,10 +11,7 @@
 	<page>
 		<class>业务Guideline</class>
 		<title>
-			<pdf>外综服 Guideline</pdf>
-			<pdf>MA Guideline</pdf>
-			<pdf>联盟 Guideline</pdf>
-			<pdf>P4P Guideline</pdf>
+			<pdf>外综服前台DPL</pdf>
 		</title>
 	</page>
 	<page>
@@ -79,13 +76,9 @@
 	<page>
 		<class>其他报告</class>
 		<title>
-			<name>浏览器分析报告</name>
-			<pdf>浏览器分析报告</pdf>
-		</title>
-		<title>
-			<name>无线志</name>
-			<menber>王羽枫</menber>
-			<pdf>无线志13期</pdf>
+		<pdf>浏览器分析报告</pdf>
+		<pdf>无线志</pdf>
+		<pdf>中大买家信保研究报告</pdf>
 		</title>
 	</page>
 	<page>

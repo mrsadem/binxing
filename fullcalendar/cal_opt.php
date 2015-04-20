@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Team Calendar</title>
-<link rel="stylesheet" type="text/css" href="../assets/style.css">
+<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
 <link rel="stylesheet" type="text/css" href="./css/calendar.css">
 <link rel="stylesheet" type="text/css" href="css/fullcalendar.css">
 <link rel="stylesheet" type="text/css" href="css/fancybox.css">

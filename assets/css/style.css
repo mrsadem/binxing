@@ -8,6 +8,11 @@ body a:link
 	text-decoration: none;
 }
 
+.clear
+{
+	clear:both;
+}
+
 ::selection     {background: #ea4c88; color: #fff; }
 ::-moz-selection  {background: #ea4c88; color: #fff; }
 
@@ -22,7 +27,7 @@ body a:link
 	overflow-y:auto;
 	z-index: 999;
 	background: #555;
-	margin-left:0; 
+	margin-left:-200px; 
 	overflow: hidden;
 }
 .side:hover {
@@ -230,13 +235,13 @@ article .intro
 	height: 100%;
 }
 
-.single-content h4
+.single-content h4, .review-content h4
 {
 	font-weight: 100;
 	margin-bottom: 25px;
 }
 
-.single-content .post-single
+.single-content .post-single, .review-content .post-single
 {
 	background: #fff;
 	border:solid 1px #ddd;
@@ -284,6 +289,41 @@ article .intro
 {
 	color:#333;
 }
+
+/* review-content */
+
+.review-content .num
+{
+	margin-left: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.review-content .time
+{
+	margin-left: 5px;
+	font-size: 14px;
+}
+
+.review-content .title
+{
+	font-size: 12px;
+	margin: 10px 0 6px 10px;
+}
+
+.review-content .menber
+{	
+	font-size: 12px;
+	margin: 0 0 10px 10px;
+	color:#aaa;
+}
+
+.review-content .row
+{
+	margin:15px 0; 
+}
+
+/* footer-content */
 
 footer
 {
