@@ -28,13 +28,13 @@
             </div>
               <ul class="nav navbar-nav hidden-xs">
                   <li class="active"><a href="index.php">Home</a></li>
+                  <li id="work-panel"><a href="#" class="btn-link"><span class="glyphicon glyphicon-menu-hamburger"></span>Less Is More</a></li>
                   <li class="dropdown">
                       <a href="review.php">
                          Design Review 
                       </a>
                   </li>
                   <li><a href="/fullcalendar/cal_opt.php" target="blank">Team Calendar</a></li>
-                  <li id="work-panel"><a href="#" class="btn-link"><span class="glyphicon glyphicon-menu-hamburger"></span></a></li>
              </ul>
         </nav>
       </div>
